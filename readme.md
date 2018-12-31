@@ -1,6 +1,6 @@
 SRSTreeView
 ========
-Swift / iOS.  This is UIScrollview based class that creates a tree view that performs like UIListView
+Swift / iOS.  This is UIScrollview based class that creates a tree view that performs like UIListView.
 
 Features
 ========
@@ -35,7 +35,7 @@ class ViewController: UIViewController,SRSTreeViewDelegate,SRSTreeViewDataSource
 
 ```
 
-You will have to then implement the protocols for the datasource and delegate
+You will have to then implement the protocols for the datasource and delegate.
 Note that you are only giving the tree view the number of parent items, that is the top most nodes.
 
 ## Datasource

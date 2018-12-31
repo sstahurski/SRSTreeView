@@ -37,7 +37,7 @@ class ViewController: UIViewController,SRSTreeViewDelegate,SRSTreeViewDataSource
 You will have to then implement the protocols for the datasource and delegate
 Note that you are only giving the tree view the number of parent items, that is the top most nodes.
 
-## DATASOURCE
+## Datasource
 
 ```swift
     func numberOfParentTreeRows() -> Int{

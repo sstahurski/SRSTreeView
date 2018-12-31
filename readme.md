@@ -13,7 +13,8 @@ SRSTreeViewCell.swift
 SRSTreeView.swift
 Constants.swift
 and the assets disclosure_down and disclosure_right
-You should also define some 'icons' for each line  All images should be 15x15 at 1x
+You should also define some 'icons' for each line.
+All images should be 15x15 at 1x
 
 
 How to use it

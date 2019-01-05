@@ -1,6 +1,6 @@
 SRSTreeView
 ========
-Swift / iOS.  This is UIScrollview based class that creates a tree view that performs like UIListView.
+Swift / iOS.  This is UIScrollview based class that creates a tree view that performs like UITableView.
 
 Features
 ========

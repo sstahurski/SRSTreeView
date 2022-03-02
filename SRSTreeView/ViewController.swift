@@ -23,7 +23,7 @@ class ViewController: UIViewController,SRSTreeViewDelegate,SRSTreeViewDataSource
     
     //SRSTreeview Datasource ( just like UIListView )  just tell the view controller how many BEGINNING parent rows there are
     func numberOfParentTreeRows() -> Int{
-        return 3
+        return 4
     }
     
     func treeCellForRowAtIndex( index:Int ) -> SRSTreeViewCell{
@@ -60,6 +60,10 @@ class ViewController: UIViewController,SRSTreeViewDelegate,SRSTreeViewDataSource
             break
         case 2:
             cell = SRSTreeViewCell.init(cell: "Level 0 Item 2",  icon: "icon_0")
+            cellData.append(cell)
+            break
+        case 3:
+            cell = SRSTreeViewCell.init(cell: "Level 0 Item 3",  icon: "icon_0")
             cellData.append(cell)
             break
         default:
